@@ -4,7 +4,7 @@ require("@nomicfoundation/hardhat-toolbox");
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: {
-    version: "0.8.7",
+    version: "0.5.16",
     settings: {
       optimizer: {
         enabled: true,

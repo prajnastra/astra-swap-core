@@ -20,8 +20,6 @@ The following assumes the use of `node@>=16`.
 
 ## Deploy Contract
 
-> :warning: **Deployment Warning**: Before deployment update **feeReceiver** & **feeToken** variable in `scripts/deploy.js`
-
 Mainnet:  `npx hardhat run scripts/deploy.js --network mainnet`\
 Ropsten:  `npx hardhat run scripts/deploy.js --network ropsten`\
 Kovan:    `npx hardhat run scripts/deploy.js --network kovan`\
